@@ -1,0 +1,23 @@
+{
+  "name": "toolvalidator",
+  "version": "0.0.2",
+  "description": "Tool for validate data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alvarosalasmtz/toolvalidator.git"
+  },
+  "keywords": [
+    "validator",
+    "validate"
+  ],
+  "author": "Alvaro Salas <alvarosalasmtz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarosalasmtz/toolvalidator/issues"
+  },
+  "homepage": "https://github.com/alvarosalasmtz/toolvalidator#readme"
+}
