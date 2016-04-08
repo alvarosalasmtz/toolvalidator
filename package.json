@@ -1,10 +1,11 @@
 {
   "name": "toolvalidator",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Tool for validate data",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "build": "babel src --out-dir lib",
+    "test": "mocha --reporter spec test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/alvarosalasmtz/toolvalidator/issues"
   },
-  "homepage": "https://github.com/alvarosalasmtz/toolvalidator#readme"
+  "homepage": "https://github.com/alvarosalasmtz/toolvalidator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "require-dir": "^0.3.0"
+  }
 }
