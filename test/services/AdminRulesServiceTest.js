@@ -11,11 +11,11 @@ describe('AdminRulesService', () => {
     it('returns add Rule and validate list', () => {
         adminRulesService.add('test', function () {
         }, 'message');
-        adminRulesService.getListRules().size.should.equal(1);
+        assert(adminRulesService.getListRules().length == 1);
     });
 
     it('returns listRules', () => {
         adminRulesService.init();
-        assert(adminRulesService.getListRules().size > 0);
+        assert(adminRulesService.getListRules().length > 0);
     });
 });
