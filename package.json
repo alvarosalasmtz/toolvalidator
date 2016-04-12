@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/alvarosalasmtz/toolvalidator#readme",
   "devDependencies": {
-    "array.filter": "^0.1.5",
+    "array.filter": "^0.1.4",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "require-dir": "^0.3.0"
