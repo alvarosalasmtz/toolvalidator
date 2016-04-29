@@ -12,6 +12,7 @@ describe('AdminRulesService', () => {
         adminRulesService.add('test', function () {
         }, 'message');
         assert(adminRulesService.getListRules().length == 1);
+    });
 
     it('returns listRules', () => {
         adminRulesService.init();
