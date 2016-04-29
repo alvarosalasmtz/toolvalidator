@@ -1,6 +1,6 @@
 {
   "name": "toolvalidator",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Tool for validate data",
   "main": "index.js",
   "scripts": {
